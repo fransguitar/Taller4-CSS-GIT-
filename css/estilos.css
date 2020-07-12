@@ -1,4 +1,4 @@
-input[type=text], select, textarea,input[type=number],input[type=password],input[type=email]{
+input[type=text], select, textarea,input[type=number],input[type=password],input[type=email],input[type=date],textarea{
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -35,14 +35,32 @@ input[type=submit]:hover {
 
 .col-25 {
   float: left;
-  width: 25%;
+  width: 15%;
   margin-top: 6px;
 }
 
 .col-75 {
   float: left;
-  width: 35%;
+  width: 40%;
   margin-top: 6px;
+}
+.col-ax1 {
+  float: left;
+  width: 20%;
+  margin-top: 6px;
+
+}
+.col-ax2 {
+  float: left;
+  margin-top: 6px;
+  margin-left: 50px;
+
+}
+.col-ax3 {
+  float: left;
+  margin-top: 6px;
+  width: 11%;
+
 }
 
 /* Clear floats after the columns */
